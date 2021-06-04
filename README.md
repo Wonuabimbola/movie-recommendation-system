@@ -65,6 +65,7 @@ The model that resulted in the lowest rmse score was the SVD model. After tuning
 │   ├── movies.md                          <- movie information
 |   ├── ratings.csv                        <- movie ratings
 │   ├── tags.csv                           <- user-generated metadata about movies
+|   ├── contentbasedrec.py                 <- file storing the class used for content based rec
 ├── gitignore                              <- files to ignore
 ├── movie_lens_rec.ipynb                   <- final notebook
 ├── movie_rec_system.pdf                   <- presentation
