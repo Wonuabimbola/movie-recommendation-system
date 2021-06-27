@@ -71,7 +71,13 @@ The model that resulted in the lowest rmse score was the SVD model. After tuning
 ├── movie_rec_system.pdf                   <- presentation
 └── images                                 <- Visualizations used in README and pdf file
 
+```
 
+## Contact Information
+
+With questions or feedback on this repository, please reach out via:
+- [GitHub](https://github.com/Wonuabimbola)
+- [LinkedIn](https://www.linkedin.com/in/wonuola-abimbola)
 
 
 
