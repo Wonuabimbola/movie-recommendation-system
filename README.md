@@ -2,11 +2,13 @@
 
 ### Author: [Wonuola Abimbola](https://github.com/Wonuabimbola)
 
-## Overview
+## Project Goal
 
-Build a movie recommendation system for a streaming service that offers a wide variety of award-winning movies on their platform. The data used in this project was obtained from the latest MovieLens Dataset.
+This project aims to build a movie recommendation system for a streaming service that offers a wide variety of movies on their platform. They would like to be able to introduce existing users to new movies that they may not have seen before in order to generate more exposure to less popular movies and also recommend movies to new users on the platform using information about the previous movies they've enjoyed and predicting movies similar to them. This project incorporates both Content Based and Collaborative Filtering Methods.  
 
-This project incorporates both Content Based and Collaborative Filtering Methods
+## Data Understanding
+
+The dataset used in this project was obtained from the latest [MovieLens Dataset.](https://grouplens.org/datasets/movielens/latest/) It contains about 100k user ratings, 9.7k movie and 3.6k movie tags.
 
 ## Exploratory Data Analysis
 
@@ -59,18 +61,17 @@ The model that resulted in the lowest rmse score was the SVD model. After tuning
 
 
 ```
-├── README.md                              <- This README file
 ├── data                                   <- obtained from grouplens.org
 │   ├── links.csv                          <- contains identifiers that can be used to link to other sources of movie data
 │   ├── movies.md                          <- movie information
 |   ├── ratings.csv                        <- movie ratings
 │   ├── tags.csv                           <- user-generated metadata about movies
-|   ├── contentbasedrec.py                 <- file storing the class used for content based rec
+├── images                                 <- Visualizations used in README and pdf file
 ├── gitignore                              <- files to ignore
+├── README.md                              <- This README file
+├── contentbasedrec.py                     <- file storing the class used for content based rec
 ├── movie_lens_rec.ipynb                   <- final notebook
-├── movie_rec_system.pdf                   <- presentation
-└── images                                 <- Visualizations used in README and pdf file
-
+└── movie_rec_system.pdf                   <- final presentation
 ```
 
 ## Contact Information
